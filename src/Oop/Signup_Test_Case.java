@@ -26,8 +26,26 @@ public class Signup_Test_Case extends Parameters {
 		createAccount.click();
 		
 		WebElement firstName=driver.findElement(By.id("firstname"));
-		firstName.sendKeys(myMagento.myString); 
-		}
+		firstName.sendKeys(myMagento.randomFirstName);
+		
+		WebElement lastName=driver.findElement(By.xpath("//input[@id='lastname']"));
+		lastName.sendKeys(myMagento.randomLastName);
+		
+   WebElement userEmail=driver.findElement(By.xpath("//input[@id='email_address']")) ; 
+   userEmail.sendKeys(myMagento.myMail);
+   
+   
+   WebElement myPass=driver.findElement(By.xpath("//input[@id='password']"));
+   myPass.sendKeys(myMagento.passWord);
+		
+   
+   WebElement confirmPass=driver.findElement(By.xpath("//input[@id='password-confirmation']"));
+   confirmPass.sendKeys(myMagento.confiRm);
+   
+   WebElement subMit=driver.findElement(By.xpath("//button[@title='Create an Account']"));
+   subMit.click();	
+   
+	}
 
 	@AfterTest
 	public void myPostTest() {
