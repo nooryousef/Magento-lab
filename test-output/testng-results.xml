@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-04T22:34:10 EET" name="Default suite" finished-at="2023-10-04T22:34:21 EET" duration-ms="11699">
+  <suite started-at="2023-10-05T03:31:09 EET" name="Default suite" finished-at="2023-10-05T03:31:49 EET" duration-ms="39959">
     <groups>
     </groups>
-    <test started-at="2023-10-04T22:34:10 EET" name="Default test" finished-at="2023-10-04T22:34:21 EET" duration-ms="11699">
+    <test started-at="2023-10-05T03:31:09 EET" name="Default test" finished-at="2023-10-05T03:31:49 EET" duration-ms="39959">
       <class name="Oop.Login_Test_Case">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Oop.Login_Test_Case@497570fb]" started-at="2023-10-04T22:34:10 EET" name="setUp" finished-at="2023-10-04T22:34:16 EET" duration-ms="6553" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Oop.Login_Test_Case@2f4919b0]" started-at="2023-10-05T03:31:09 EET" name="setUp" finished-at="2023-10-05T03:31:19 EET" duration-ms="9526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="theTest()[pri:0, instance:Oop.Login_Test_Case@497570fb]" started-at="2023-10-04T22:34:16 EET" name="theTest" finished-at="2023-10-04T22:34:21 EET" duration-ms="5088" status="PASS">
+        <test-method signature="theTest()[pri:0, instance:Oop.Login_Test_Case@2f4919b0]" started-at="2023-10-05T03:31:27 EET" name="theTest" finished-at="2023-10-05T03:31:42 EET" duration-ms="14821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- theTest -->
-        <test-method is-config="true" signature="myPostTest()[pri:0, instance:Oop.Login_Test_Case@497570fb]" started-at="2023-10-04T22:34:21 EET" name="myPostTest" finished-at="2023-10-04T22:34:21 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="myPostTest()[pri:0, instance:Oop.Login_Test_Case@2f4919b0]" started-at="2023-10-05T03:31:49 EET" name="myPostTest" finished-at="2023-10-05T03:31:49 EET" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myPostTest -->
       </class> <!-- Oop.Login_Test_Case -->
+      <class name="Oop.Signup_Test_Case">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Oop.Signup_Test_Case@720653c2]" started-at="2023-10-05T03:31:19 EET" name="setUp" finished-at="2023-10-05T03:31:27 EET" duration-ms="8581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="theTest()[pri:0, instance:Oop.Signup_Test_Case@720653c2]" started-at="2023-10-05T03:31:42 EET" name="theTest" finished-at="2023-10-05T03:31:49 EET" duration-ms="6963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- theTest -->
+        <test-method is-config="true" signature="myPostTest()[pri:0, instance:Oop.Signup_Test_Case@720653c2]" started-at="2023-10-05T03:31:49 EET" name="myPostTest" finished-at="2023-10-05T03:31:49 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myPostTest -->
+      </class> <!-- Oop.Signup_Test_Case -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

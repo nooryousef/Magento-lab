@@ -21,13 +21,15 @@ public class Login_Test_Case  extends Parameters  {
 	}
 	
 	@Test()
-	public void theTest() {
+	public void theTest() throws InterruptedException  {
+		
 		
 		WebElement signIn=driver.findElement(By.xpath("//div[@class='panel header']//a[contains(text(),'Sign In')]"));
 		signIn.click();	
 		
 		WebElement logIn=driver.findElement(By.id("email"));
 		logIn.sendKeys(myMagento.logInEmail);
+		Thread.sleep(10000);
 		
 		WebElement pAssword=driver.findElement(By.id("pass"));
 		pAssword.sendKeys(myMagento.confiRm);

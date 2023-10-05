@@ -26,10 +26,10 @@ public class Signup_Test_Case extends Parameters {
 		createAccount.click();
 		
 		WebElement firstName=driver.findElement(By.id("firstname"));
-		firstName.sendKeys(myMagento.randomFirstName);
+		firstName.sendKeys(myMagento.firstName);
 		
 		WebElement lastName=driver.findElement(By.xpath("//input[@id='lastname']"));
-		lastName.sendKeys(myMagento.randomLastName);
+		lastName.sendKeys(myMagento.lastName);
 		
    WebElement userEmail=driver.findElement(By.xpath("//input[@id='email_address']")) ; 
    userEmail.sendKeys(myMagento.myMail);
